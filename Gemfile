@@ -1,6 +1,5 @@
-# If you do not have OpenSSL installed, update
-# the following line to use "http://" instead
 source 'https://rubygems.org'
+ruby '2.3.2'
 
 # Specify your gem's dependencies in middleman-strava.gemspec
 gemspec
