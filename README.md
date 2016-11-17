@@ -1,6 +1,7 @@
 # Middleman Strava
 
 [ ![Codeship Status for dbeg/middleman-strava](https://codeship.com/projects/8ad28840-02a0-0133-4d5f-2eafb47e949a/status?branch=master)](https://codeship.com/projects/88966)
+[![Gem Version](https://badge.fury.io/rb/middleman-strava.svg)](https://badge.fury.io/rb/middleman-strava)
 
 `middleman-strava` is an extension for the [Middleman] static site generator that exposes helpers which return [Strava] API results inside your templates.
 
