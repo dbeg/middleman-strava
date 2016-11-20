@@ -1,7 +1,7 @@
 require 'middleman-core'
 require 'middleman-strava/version'
 
-::Middleman::Extensions.register(:middleman_strava) do
+::Middleman::Extensions.register(:strava) do
   require 'middleman-strava/extension'
-  ::Middleman::StravaExtension
+  ::Middleman::Strava::StravaExtension
 end

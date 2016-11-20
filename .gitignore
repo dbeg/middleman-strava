@@ -1,3 +1,5 @@
-/Gemfile.lock
-/pkg
-/tmp
+.DS_Store
+Gemfile.lock
+pkg
+tmp
+.tmp

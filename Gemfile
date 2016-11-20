@@ -1,20 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.3.2'
+
+gem 'middleman-core', :github => 'middleman/middleman', :branch => 'v3-stable'
+gem 'strava-api-v3', '~> 0.6.0'
 
 # Specify your gem's dependencies in middleman-strava.gemspec
 gemspec
 
-gem 'strava-api-v3'
-
-group :development do
-  gem 'rake'
-  gem 'rdoc'
-  gem 'yard'
-end
-
-group :test do
-  gem 'cucumber'
-  gem 'fivemat'
-  gem 'aruba'
-  gem 'rspec'
-end
+gem 'rake', '~> 10.3', require: false
+gem 'aruba', '~> 0.10.0'
+gem 'rspec', '~> 3.0'
+gem 'cucumber', '~> 2.0'
