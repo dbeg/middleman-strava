@@ -1,13 +1,8 @@
-Feature: Strava Integration
+Feature: Strava API integration
+	As a middleman site maintainer
+  	I want to leverage Strava API calls
+  	So that Strava data is displayed
 
-  Scenario: Strava config var `access_token` is not set
-    Given a fixture app "strava-app"
-    And a file named "config.rb" with:
-      """
-      activate :middleman_strava do |d|
-        d.access_token = nil
-      end
-      """
-    And the Server is running
-    When I go to "/"
-    Then I should see "0" lines
+  	Scenario: Strava config var `access_token` is not set
+    	Given the Server is running at "strava-app"
+    	When I go to "/" it raises an "Authorization Error"
